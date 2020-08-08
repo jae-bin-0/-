@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>여행</title>
+    <link rel="stylesheet" href="./여행.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <br>
+        <h1>
+            <a href="여행.html" id="tour">여행일지</a>
+        </h1>
+        <h3><br><br>
+            <ul>   
+                <div id="where">
+                    <script type="text/javascript">
+                        function showHide(id) {
+                            var obj = document.getElementById(id);
+                                if (obj.style.display == 'none'){
+                                obj.style.display = 'block';
+                                }
+                
+                                else{
+                                    obj.style.display = 'none';
+                                }
+                            }
+                    </script>
+                    <li> 
+                        <a onclick="showHide('name')" onfocus="this.blur()" id="tour">
+                        제주도
+                        </a>
+                        <div id=name style="display:none">
+                            <a href="여행_제주도_part1.html" id="tour">첫 번째 제주도 여행</a><br>
+                            두 번째 제주도 여행
+                        </div>
+                    </li><br>
+                    <li> 일본 </li><br>
+                    <li> 태국 </li><br>
+                    <li> 대만 </li><br>
+                    <li> Music - Play list </li>
+                </div>
+            </ul>
+        </h3>
+       
+        <h3 id="who">
+            <br><br><br><br><br><br><br>
+            Designed and Writed by <br> <b>JAEBIN YUN</b>
+            </h3>
+            <nav>
+                <ul>
+                    <div id="sns">
+                        <li><img src="instagram img.png"  width="8%"><a href="https://www.instagram.com/jaebin.yun/" rel="noopener noreferrer" target="_blank">&nbsp;Instagram</a></li>
+                        <li><img src="facebook.jpg"  width="7%"><a href="https://www.facebook.com/profile.php?id=100005431368923" rel="noopener noreferrer" target="_blank">&nbsp;facebook</a></li>
+                        <li><img src="kakao talk.png"  width="7%"><a title="gkjs4837">&nbsp; kakaotalk ID</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </p>
+    </header>
+    <main>
+        <div class="title">
+            <span class="web"><strong> [이 웹페이지는 -] </strong></span><br>
+        </div>
+        <p>
+            이 웹페이지는 html, css 그리고 약간의 java script 라는 프로그래밍 언어로 작성되었습니다. <br><br>
+            왼쪽에서 여행지를 클릭하여 여행일지를 편히 구경해보시길 바랍니다. <br><br>
+            왼쪽에서 여행일지를 클릭하면 원래 페이지로 돌아가게 됩니다. <br><br>
+            Music - Playlist 는 여행하면서 듣기 좋은 노래를 모아놓은 곳 입니다. <br><br>
+            노래 추가를 원한다면 유튜브링크와 노래 제목을 작성자에게 알려주세요 :)
+        </p>
+        <div class="title">
+            <span class="web"><strong> [웹페이지 제작에 관심이 있다면 -] </strong></span><br>
+        </div>
+        <p>
+            웹페이지 제작에 관심이 있다면 <a href="https://opentutorials.org/course/1" target="_blank">"생활코딩"</a> 사이트에 방문해보시길 바랍니다. <br><br>
+            도전하십시오, 프로그래밍에 문외한이어도 생활코딩에 있는 무료강의를 손쉽게 이해할 수 있습니다.<br><br>
+            <a href="https://opentutorials.org/course/3084" target="_blank"> HTML & Internet </a><br>
+            <a href="https://opentutorials.org/course/3086" target="_blank"> CSS </a><br>
+            <a href="https://opentutorials.org/course/3085" target="_blank"> Java Script </a>
+        </p>
+            <br>
+            <span id="dog_sound">
+                <a onclick="showHide('var1')" onfocus="this.blur()">
+                    작성자 간식 사주기(클릭)
+                </a>
+                <div id=var1 style="display:none">
+                    >>> 농협 302 1427 6981 31 <<<
+                </div>
+            </span>
+    </main>
+</body>
+</html>
